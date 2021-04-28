@@ -10,6 +10,6 @@ final class PHPExcelTest extends TestCase
     //Création d'un fichier Excel ?
     public function testCanBeCreated()
     {
-        $objPHPExcel = new PHPExcel();
+        $objPHPExcel = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
     }
 }
