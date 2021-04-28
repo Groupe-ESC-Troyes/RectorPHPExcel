@@ -9,7 +9,7 @@ class Autoloader {
      * Autoloader
      * @param $className
      */
-    protected static function autoload($className) {
+    public static function autoload($className) {
         // on explose notre variable $class par \ (namespace)
         $parts = explode('\\',$className);
         // on extrait le dernier element
