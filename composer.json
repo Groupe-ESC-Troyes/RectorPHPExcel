@@ -16,15 +16,11 @@
     "mtdowling/cron-expression": "^1.2",
     "twig/intl-extra": "^3.3",
     "phpmailer/phpmailer": "^6.4",
-    "phpoffice/phpexcel": "*",
     "phpoffice/phpspreadsheet": "^1.17"
   },
   "autoload": {
     "files": [
       "services/Intranet/Autoloader.php"
-    ],
-    "classmap": [
-      "vendor/phpoffice/phpexcel/Classes"
     ]
   },
   "require-dev": {
