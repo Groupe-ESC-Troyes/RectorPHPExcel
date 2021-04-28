@@ -1,0 +1,46 @@
+{
+  "require": {
+    "php": "7.4.*",
+    "ext-json": "*",
+    "ext-ldap": "*",
+    "ext-gd": "*",
+    "ext-pdo": "*",
+    "ext-mysqli": "*",
+    "ext-zip": "*",
+    "ext-iconv": "*",
+    "ext-mbstring": "*",
+    "ext-calendar": "*",
+    "ext-dom": "*",
+    "ext-curl": "*",
+    "ext-gettext": "*",
+    "ext-intl": "*",
+    "symfony/http-foundation": "5.*",
+    "symfony/form": "5.*",
+    "symfony/twig-bridge": "5.*",
+    "symfony/translation": "5.*",
+    "symfony/mime": "^5.2",
+    "phpunit/phpunit": "9.*",
+    "digitick/sepa-xml": "1.6.2",
+    "monolog/monolog": "*",
+    "twig/twig": "3.*",
+    "google/apiclient": "2.2.1",
+    "giggsey/libphonenumber-for-php": "8.12.*",
+    "kabachello/phpolapi": "2.0.2",
+    "mtdowling/cron-expression": "^1.2",
+    "twig/intl-extra": "^3.3",
+    "phpmailer/phpmailer": "^6.4",
+    "phpoffice/phpexcel": "*",
+    "phpoffice/phpspreadsheet": "^1.17"
+  },
+  "autoload": {
+    "files": [
+      "services/Intranet/Autoloader.php"
+    ],
+    "classmap": [
+      "vendor/phpoffice/phpexcel/Classes"
+    ]
+  },
+  "require-dev": {
+    "rector/rector": "0.*"
+  }
+}
