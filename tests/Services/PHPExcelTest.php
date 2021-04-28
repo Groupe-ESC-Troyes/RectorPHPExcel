@@ -29,7 +29,7 @@ final class PHPExcelTest extends TestCase
             ->setCellValue('A5', 'éàèùâêîôûëïüÿäöüç');
         $objPHPExcel->getActiveSheet()->setTitle('Simple');
         $objPHPExcel->setActiveSheetIndex(0);
-        $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
+        $objWriter = \PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
         $file = '/tmp/test.xlsx';
         if(file_exists($file))
             unlink($file);
